@@ -1,0 +1,114 @@
+/* Sección Codigo de Conducta */
+.div_COC {
+    padding: 4% 4% 4% 4%;
+}
+.conduct-item ul {
+    list-style-type: circle;
+    display:flex;
+    flex-direction: column;
+  }
+  
+.conduct-item li {
+    padding: 0px 0px 0px 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: white;
+}
+
+.conduct-item p {
+    text-align: left;
+}
+.COC {
+    list-style-type: circle;
+    display:flex;
+    flex-direction: column;
+}
+
+.COC>li {
+    padding: 0px 0px 0px 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: white;
+}
+
+.conduct-item.asistente {
+    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box, 
+                linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
+}
+  
+.conduct-item.speaker {
+    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box, 
+                linear-gradient(to right, var(--title-color-tertiary), var(--title-color-quaternary)) border-box;
+}
+  
+.conduct-item.staffs {
+    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box, 
+                linear-gradient(to right, var(--title-color-primary), var(--title-color-secondary)) border-box;
+}
+
+.asistente {
+    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box, 
+            linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
+    border-radius: 60px;
+    border: 4px solid transparent;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 15px;
+}
+
+.asistente>h2 {
+    background: linear-gradient(to right, var(--title-color-secondary),var(--title-color-primary));
+    background-clip: text;
+    color: transparent; 
+}
+
+.speaker {
+    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box, 
+            linear-gradient(to right, var(--title-color-tertiary),var(--title-color-quaternary)) border-box;
+    border-radius: 60px;
+    border: 4px solid transparent;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 15px;
+}
+
+.speaker>h2 {
+    background: linear-gradient(to right, var(--title-color-tertiary),var(--title-color-quaternary));
+    background-clip: text;
+    color: transparent; 
+}
+
+.staffs {
+    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box, 
+            linear-gradient(to right, var(--title-color-primary), var(--title-color-secondary)) border-box;
+    border-radius: 60px;
+    border: 4px solid transparent;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 15px;
+}
+
+.staffs>h2 {
+    background: linear-gradient(to right, var(--title-color-primary),var(--title-color-secondary));
+    background-clip: text;
+    color: transparent; 
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+
+ul>li {
+    font-family: 'Every Week';
+}
+
+li {
+    padding: 0px 0px 0px 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .conduct-item li {
+        font-size: 14px;
+    }
+}
