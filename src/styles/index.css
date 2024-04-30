@@ -1,0 +1,151 @@
+:root {
+    --title-color-primary: #FFBC00;
+    --title-color-secondary:#FF1F6D;
+    --title-color-tertiary: #00D8D7;
+    --title-color-quaternary:  #496bca;
+    --paragraph-color-primary: #ffffff;
+    --paragraph-color-secondary: #201A3E; 
+    --background-color-primary: #201A3E;
+    --background-color-secondary: #342673;
+    --background-color-tertiary: #451B5A;
+}
+@font-face {
+    font-family: 'Every Week';
+    src: url('../../public/fonts/EveryWeekDemoRegular.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #261E46;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Coiny';
+    font-size: 45px;
+    background: linear-gradient(to right, var(--title-color-primary),rgb(255, 0, 0));
+    background-clip: text;
+    color: transparent; 
+}
+
+h2 {
+    font-family: 'Coiny';
+    font-size: 36px;
+    background: linear-gradient(to right, var(--title-color-tertiary),var(--title-color-quaternary));
+    background-clip: text;
+    color: transparent; 
+}
+
+h3 {
+    font-family: 'Montserrat';
+    color: var(--title-color-secondary);
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0px;
+    color: #ffffff;
+}
+
+/* start home */
+
+.mainContainer {
+    background-image: url(../assets/images/background.original.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4%;
+    height: 100%;
+}
+
+.contentLogo  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 12%;
+}
+
+.contentBody  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.logo_inicio {
+    width: 40%;
+}
+
+.CommingSoon {
+    width: 20%;
+}
+
+.button {
+    background-color: var(--title-color-primary);
+    padding: 5px 40px;
+    border-radius: 30px;
+    color: var(--paragraph-color-secondary);
+}
+/* end home */
+
+@media (max-width: 768px) {
+    p {
+        font-size: 15px;
+    }
+    .contentLogo {
+        flex-direction: column;
+        padding-top: 20%;
+    }
+    .contentBody  {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    .logo_inicio{
+        width: 80%;
+    }
+    .CommingSoon {
+        width: 40%;
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    p {
+        font-size: 14px;
+    }
+    .contentLogo {
+        flex-direction: column;
+        padding-top: 24%;
+    }
+    .contentBody  {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .logo_inicio{
+        width: 80%;
+    }
+    .CommingSoon {
+        width: 40%;
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+}

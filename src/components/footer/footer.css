@@ -1,0 +1,110 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    backdrop-filter: blur(50px);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    overflow: visible;
+    margin: 4px;
+}
+.container-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.cont1 {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cont1 a {
+    color: #FFBC00;
+    text-decoration: none;
+}
+.logo1 {
+    height: 120px;
+    width: auto;
+}
+.logo2 {
+    height: 120px;
+    width: auto;
+}
+.container_column_contactofooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
+.container_column_contactofooter>a>img {
+    width: 30px;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.container_column_contactofooter>a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .container-logo {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cont1 a {
+        color:#FFBC00;
+        font-size: 14px;
+    }
+    .container_column_contactofooter>a>img {
+        width: 20px;
+        height: fit-content;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container-logo {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo1 {
+        width: 200px;
+        height: 180px;
+    }
+    .logo2 {
+        width: 160px;
+        height: 180px;
+    }
+    .cont1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cont1 a {
+        color:#FFBC00;
+        font-size: 14px;
+        justify-content: center;
+    }
+    .container_column_contactofooter>a>img {
+        width: 20px;
+        height: fit-content;
+        margin-right: 10px;
+    }
+
+}
