@@ -41,6 +41,31 @@ const CodeOfConduct = () => {
                     "Respeta la privacidad y la confidencialidad de cualquier información sensible que puedas manejar como parte del equipo de PyDay Cochabamba."
                 ]}
           />
+          <ConductItem
+                title="Consecuencias por Incumplimiento:"
+                content="Consecuencias por Incumplimiento como asistente, Speakers/Talleristas y miembro del staff:"
+                type="asistente"
+                points={[
+                    "Advertencia verbal en primer instancia.",
+                    "Si un Asistente incurre en reincidencia o incumplimiento grave se procedera a la expulsión del evento.",
+                    "Si un Speakers/Talleristas incurre en reincidencia o incumplimiento grave se procedera al retiro de la participación en el evento y posible prohibición de futuras presentaciones en eventos organizados por PyDay Cochabamba.",
+                    "Si un miembro del Staff incurre en reincidencia se procedera a darle una suspensión temporal de las responsabilidades como miembro del staff.",
+                    "Si un miembro del Staff incurre en algún incumplimiento grave se procedera a la sesvinculación del equipo de PyDay Cochabamba 2024.",
+                    "Si eres victima o testigo de actos que vayan en contra del código de conducta, puedes reportalo a los miembros del Staff o al correo: pydaycbba@gmail.com"
+
+                ]}
+          />
+          <ConductItem
+                title="Politicas de seguridad y salud ante el COVID-19"
+                content="Medidas de control"
+                type="speaker"
+                points={[
+                    "Para los participantes de nacionalidad boliviana deben presentar su carnet de vacunación emitido por el Ministerio de Salud de Bolivia al momento del registro.",
+                    "Para los participantes extranjeros deben deben presentar un equivalente al carnet de vacunación emitido por la autoridad sanitaria de su país de origen.",
+                    "El uso de cubrebocas es obligatorio en los espacios cerrados como el escenario principal y los espacios de los talleres.",
+                    "Recuerda portar con tu alcohol en gel, tambien podras encontrar dispensadores en los puntos de registro."
+                ]}
+          />
           </div>
       </section>
   )
