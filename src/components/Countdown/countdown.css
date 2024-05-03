@@ -1,0 +1,52 @@
+.countdown-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2%;
+}
+
+.countdown-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.countdown-number {
+    font-family: 'Montserrat';
+    font-size: 80px;
+    background: linear-gradient(to bottom ,#FFBC00, #FF1F6D);
+    background-clip: text;
+    color: transparent;
+}
+
+.countdown-label {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #FFBC00;
+}
+@media (max-width: 768px) {
+    .countdown-item {
+        text-align: center;
+        bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .countdown-item {
+        text-align: center;
+        bottom: 10px;
+        width: 100%;
+    }
+    .countdown-number {
+        font-size: 40px;
+    }
+    
+    .countdown-label {
+        font-size: 12px;
+    }
+
+}
