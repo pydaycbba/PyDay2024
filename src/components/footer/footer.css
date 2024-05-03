@@ -39,6 +39,7 @@
 .logo2 {
     height: 120px;
     width: auto;
+    padding-right: 2%;
 }
 .container_column_contactofooter {
     display: flex;
