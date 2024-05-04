@@ -5,7 +5,7 @@ import Footer from '../../components/footer'
 import CodeOfConduct from './sections/CodeOfConduct';
 import Contact from './sections/Contact';
 import Schedule from './sections/Schedule';
-
+import Communities from './sections/Communities'
 
 const Home = () => {
   return (
@@ -26,6 +26,7 @@ const Home = () => {
       </div>
       <Schedule />
       <CodeOfConduct />
+      <Communities />
       <Contact />
       <Footer />
     </div>

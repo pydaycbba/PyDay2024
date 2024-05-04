@@ -65,6 +65,7 @@ const Navbar = () => {
         <li id='home'><a href="#Home" onClick={closeMenu}>Pyday</a></li>
         <li id='schedule'><a href="#Schedule" onClick={closeMenu}>Cronograma</a></li>
         <li id='coc'><a href="#COC" onClick={closeMenu}>COC</a></li>
+        <li id='communities'><a href="#Communities" onClick={closeMenu}>Comunidades</a></li>
         <li id='contact'><a href="#Contact" onClick={closeMenu}>Contactos</a></li>
       </ul>
     </nav>
