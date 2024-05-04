@@ -9,6 +9,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 80vh;
+    position: relative;
+}
+
+.div_Communities::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to bottom, #261E46, transparent);
+    z-index: 999;
 }
 
 .div_Communities>h1{
