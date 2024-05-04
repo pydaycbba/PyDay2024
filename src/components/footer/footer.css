@@ -11,6 +11,8 @@
     gap: 4px;
     overflow: visible;
     margin: 4px;
+
+    display: none;
 }
 .container-logo {
     display: flex;

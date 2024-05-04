@@ -44,10 +44,10 @@ import Icons from '../../assets/icons';
 			</section>
 		</div>
 		<Schedule />
-     <CodeOfConduct />
-     <Communities />
-     <Contact />
-     <Footer />
+    <CodeOfConduct />
+    <Communities />
+    <Contact />
+    <Footer />
 		</div>
 	)
 	}
