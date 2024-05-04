@@ -4,7 +4,7 @@ import Images from '../../assets/images';
 import Footer from '../../components/footer'
 import CodeOfConduct from './sections/CodeOfConduct';
 import Contact from './sections/Contact';
-
+import Schedule from './sections/Schedule';
 
 
 const Home = () => {
@@ -24,6 +24,7 @@ const Home = () => {
           </div>
         </section>
       </div>
+      <Schedule />
       <CodeOfConduct />
       <Contact />
       <Footer />

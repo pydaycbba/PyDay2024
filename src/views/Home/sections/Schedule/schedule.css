@@ -1,0 +1,189 @@
+/* Sección Cronograma */
+
+.div_schedule {
+    padding: 8% 4% 4% 4%;
+}
+
+.div_schedule>h1 {
+    text-align: center;
+}
+
+.tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tab>p {
+    padding: 10px 20px;
+    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box, 
+            linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
+    border-radius: 60px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab>p:hover {
+    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) padding-box, 
+            linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
+}
+
+.tab>p.active {
+    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) padding-box, 
+            linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
+}
+
+.tabcontent {
+    margin: 15px 10%;
+    display: none;
+}
+
+.tabcontent.active  {
+    display: block;
+}
+
+.schedule-item {
+    display: flex;
+    flex-direction: row;
+    height: 217px;
+    border-bottom: 2px solid transparent;
+    background: linear-gradient(#32256E, #32256E) padding-box, 
+                linear-gradient(to right, var(--title-color-primary), var(--title-color-secondary)) border-box;
+
+}
+
+.schedule-item:last-child {
+    border-bottom: none;
+}
+
+.schedule-item>p {
+    align-self: center;
+    font-size: 25px;
+    width: 250px;
+}
+
+.item-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item-data>p {
+    text-align: left;
+    margin: 0px;
+}
+
+.item-data.Apertura {
+    font-size: 14px;
+    font-weight: 400;
+    width:fit-content;
+    padding: 5px 15px;
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.item-data.Charla {
+    font-size: 14px;
+    font-weight: 400;
+    width:fit-content;
+    padding: 5px 15px;
+    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)); 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.item-data.Taller {
+    font-size: 14px;
+    font-weight: 400;
+    width:fit-content;
+    padding: 5px 15px;
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.item-data.Break {
+    font-size: 14px;
+    font-weight: 400;
+    width:fit-content;
+    padding: 5px 15px;
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.item-data.Sponsor {
+    font-size: 14px;
+    font-weight: 400;
+    width:fit-content;
+    padding: 5px 15px;
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.item-data.Conclusión {
+    font-size: 14px;
+    font-weight: 400;
+    width:fit-content;
+    padding: 5px 15px;
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.item-data-title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.item-data-name {
+    font-size: 18px;
+    color: #00CEFF;
+}
+
+@media (max-width: 768px) {
+    .div_schedule {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4%;
+    }
+
+    .tabcontent {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .schedule-item {
+        height: 100px;
+    }
+
+    .schedule-item>p {
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .item-data {
+        gap: 5px;
+    }
+
+    .item-data-title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .item-data-name {
+        font-size: 14px;
+    }
+
+    #type {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 2px 10px;
+    }
+}
