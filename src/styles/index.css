@@ -69,10 +69,38 @@ p {
 .contentLogo  {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
     padding-top: 12%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.contentDescription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    padding-left: 15%;
+}
+
+.contentDescription>a>img {
+    width: 50px;
+    height: fit-content;
+    margin-right: 15px;
+}
+
+.contentDescription>a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: var(--title-color-primary);
+    padding-top: 2%;
 }
 
 .contentBody  {
@@ -80,8 +108,27 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 2%;
     padding-left: 16%;
     padding-right: 16%;
+}
+
+.contentBody>a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Coiny';
+    padding: 15px 30px;
+    margin: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to right, var(--title-color-secondary),var(--title-color-primary));
+    color: var(--paragraph-color-primary);
+    font-size: 20px;
+}
+
+.contentBody>a:hover {
+    background: linear-gradient(to right, var(--title-color-quaternary),var(--title-color-tertiary));
+    color: var(--paragraph-color-secondary);
 }
 
 .logo_inicio {
@@ -108,6 +155,18 @@ p {
         flex-direction: column;
         padding-top: 20%;
     }
+    .contentDescription>a>img {
+        width: 35px;
+        height: fit-content;
+        margin-right: 10px;
+    }
+    .contentDescription {
+        align-items: flex-start;
+        padding-left: 15%;
+    }
+    .contentDescription>a {
+        font-size: 20px;
+    }
     .contentBody  {
         padding-left: 12%;
         padding-right: 12%;
@@ -115,9 +174,6 @@ p {
 
     .logo_inicio{
         width: 80%;
-    }
-    .CommingSoon {
-        width: 40%;
     }
 
     .button {
@@ -133,6 +189,21 @@ p {
         flex-direction: column;
         padding-top: 24%;
     }
+    .logo_inicio{
+        width: 20%;
+    }
+    .contentDescription>a>img {
+        width: 35px;
+        height: fit-content;
+        margin-right: 10px;
+    }
+    .contentDescription {
+        align-items: flex-start;
+        padding-left: 15%;
+    }
+    .contentDescription>a {
+        font-size: 20px;
+    }
     .contentBody  {
         padding-left: 8%;
         padding-right: 8%;
@@ -140,9 +211,6 @@ p {
 
     .logo_inicio{
         width: 80%;
-    }
-    .CommingSoon {
-        width: 40%;
     }
 
     .button {
