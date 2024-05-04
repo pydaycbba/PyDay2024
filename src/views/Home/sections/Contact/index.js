@@ -21,7 +21,7 @@ const Contact = () => {
                     </a>
                     <a href={RRSS.instagram.url} target='_blank'>
                         <img src={Icons.logoInstagram} alt="Instagram" />
-                        <span>RRSS.instagram.laber</span>
+                        <span>{RRSS.instagram.laber}</span>
                     </a>
                     <a href={RRSS.email.url} target='_blank'>
                         <img src={Icons.logoEmail} alt="Email" />
