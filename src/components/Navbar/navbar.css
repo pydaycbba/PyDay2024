@@ -10,6 +10,7 @@
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1000;
   }
   .navbar::before {
     position: absolute;
@@ -94,7 +95,7 @@
     background-color: cadetblue;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 990px) {
     .navbar-menu {
       display: none;
     }

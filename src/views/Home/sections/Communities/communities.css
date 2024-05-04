@@ -1,0 +1,114 @@
+.div_Communities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    margin: 4px;
+    padding: 4% 4% 4% 4%;
+    background-image: url(../../../../assets/images/background.original.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    position: relative;
+}
+
+.div_Communities::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to bottom, #261E46, transparent);
+    z-index: 999;
+}
+
+.div_Communities>h1{
+    text-align: center;
+}
+.container-communities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.container-community {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-community a {
+    color: #FFBC00;
+    text-decoration: none;
+}
+.community-logo-1 {
+    height: 250px;
+    width: auto;
+}
+.community-logo-2 {
+    height: 250px;
+    width: auto;
+}
+.community-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
+.community-data>a>img {
+    width: 22px;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.community-data>a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1100px) {
+    .container-community {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .community-logo-1 {
+        width:fit-content;
+    }
+    .community-logo-2 {
+        width:fit-content;
+    }
+}
+
+@media (max-width: 780px) {
+    .div_Communities {
+        padding-bottom: 40px;
+    }
+    
+    .container-communities {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .community-data a {
+        font-size: 16px;
+    }
+
+    .community-logo-1 {
+        height: 200px;
+    }
+    .community-logo-2 {
+        height: 200px;
+    }
+}

@@ -28,7 +28,7 @@ const Navbar = () => {
 
   document.addEventListener('DOMContentLoaded', function() {
     const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.navbar li a');
+    /* const navLinks = document.querySelectorAll('.navbar li a'); */
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             const id = entry.target.getAttribute('id');
@@ -53,7 +53,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-brand">
         <a href="#home">
-          <img className='logoHeader' src={Images.pydayCbbaOriginal} />
+          <img className='logoHeader' alt="PyDay Logo" src={Images.pydayCbbaOriginal} />
         </a>
         <button className="menu-icon" onClick={toggleMenu}>
           <span></span>
@@ -63,7 +63,9 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-menu ${showMenu ? 'show' : ''}`}>
         <li id='home'><a href="#Home" onClick={closeMenu}>Pyday</a></li>
+        <li id='schedule'><a href="#Schedule" onClick={closeMenu}>Cronograma</a></li>
         <li id='coc'><a href="#COC" onClick={closeMenu}>COC</a></li>
+        <li id='communities'><a href="#Communities" onClick={closeMenu}>Comunidades</a></li>
         <li id='contact'><a href="#Contact" onClick={closeMenu}>Contactos</a></li>
       </ul>
     </nav>
