@@ -4,7 +4,7 @@ import Images from '../../assets/images';
 import Footer from '../../components/footer'
 import CodeOfConduct from './sections/CodeOfConduct';
 import Schedule from './sections/Schedule';
-import Communities from './sections/Communities'
+import Communities from './sections/Communities';
 
 import Icons from '../../assets/icons';
 
