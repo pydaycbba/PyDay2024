@@ -52,3 +52,4 @@ import Icons from '../../assets/icons';
 
 
 export default Home;
+
