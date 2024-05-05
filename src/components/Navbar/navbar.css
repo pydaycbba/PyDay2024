@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     color: #FFBC00;
     background-color: rgba(0,0,0,.4);
     backdrop-filter: blur(50px);
@@ -31,7 +32,7 @@
     justify-content: space-between;
     padding-right: 4%;
     padding-left: 4%;
-    padding-top: 2%;
+
   }
   
   .navbar-menu a {
@@ -39,7 +40,6 @@
     color: #FFBC00;
     font-size: 20px;
     font-family: "Coiny";
-    padding-right: 24px;
   }
   
   .menu-icon {
@@ -63,6 +63,16 @@
     display: flex;
     font-family: "Coiny";
     color: black;
+    gap: 30px;
+    padding-right: 4%;
+  }
+
+  .navbar-menu>ul {
+    margin-right: 20px;
+  }
+
+  .navbar-menu>li {
+    padding-left: 0px;
   }
   
   .navbar-menu.show {
@@ -78,9 +88,7 @@
     backdrop-filter: blur(80px);
   }
   
-  .navbar-menu li {
-    margin-right: 20px;
-  }
+
 
   .active {
     background-color: aquamarine;
