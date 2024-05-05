@@ -36,17 +36,10 @@ const Schedule = () => {
                     description=""
                 />
                 <ScheduleItem
-                    time="10:00 - 10:40"
+                    time="10:10 - 10:50"
                     type="Charla"
                     title="Charla 2"
                     name="Speaker 2"
-                    description=""
-                />
-                <ScheduleItem
-                    time="10:45 - 11:00"
-                    type="Break"
-                    title="Refrigerio"
-                    name="Organizadores de PyDay"
                     description=""
                 />
                 <ScheduleItem
@@ -64,45 +57,31 @@ const Schedule = () => {
                     description=""
                 />
                 <ScheduleItem
-                    time="12:35 - 12:50"
-                    type="Sponsor"
-                    title="Presentación Sponsor 1"
-                    name="Sponsor 1"
-                    description=""
-                />
-                <ScheduleItem
-                    time="13:00 - 14:30"
-                    type="Break"
-                    title="Almuerzo"
-                    name="Organizadores de PyDay"
-                    description=""
-                />
-                <ScheduleItem
-                    time="14:40 - 15:20"
+                    time="14:10 - 14:50"
                     type="Charla"
                     title="Charla 5"
                     name="Speaker 5"
                     description=""
                 />
                 <ScheduleItem
-                    time="15:30 - 16:10"
+                    time="15:00 - 15:40"
                     type="Charla"
                     title="Charla 6"
                     name="Speaker 6"
                     description=""
                 />
                 <ScheduleItem
-                    time="16:15 - 16:30"
-                    type="Sponsor"
-                    title="Presentación Sponsor 2"
-                    name="Sponsor 2"
-                    description=""
-                />
-                <ScheduleItem
-                    time="16:30 - 17:10"
+                    time="15:50 - 16:30"
                     type="Charla"
                     title="Charla 7"
                     name="Speaker 7"
+                    description=""
+                />
+                <ScheduleItem
+                    time="16:40 - 17:20"
+                    type="Charla"
+                    title="Charla 8"
+                    name="Speaker 8"
                     description=""
                 />
                 <ScheduleItem
@@ -115,14 +94,14 @@ const Schedule = () => {
             </div>
             <div id='segundo' className={activeTab === 'segundo' ? 'tabcontent active' : 'tabcontent'}>
                 <ScheduleItem
-                    time="10:00 - 11:45"
+                    time="10:10 - 11:50"
                     type="Taller"
                     title="Taller 1"
                     name="Workshopper 1"
                     description=""
                 />
                 <ScheduleItem
-                    time="15:00 - 17:15"
+                    time="15:00 - 16:40"
                     type="Taller"
                     title="Taller 2"
                     name="Workshopper 2"
