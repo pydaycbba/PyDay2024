@@ -6,6 +6,7 @@
 
 .div_schedule>h1 {
     text-align: center;
+    
 }
 
 .tab {
@@ -13,6 +14,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 3%;
 }
 
 .tab>p {
