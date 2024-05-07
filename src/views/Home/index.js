@@ -19,15 +19,15 @@ import Icons from '../../assets/icons';
 						<img className="logo_inicio" src={Images.pydayCochabamba} alt='pyday logo'/>
 						<div className='contentDescription'>
 							<a>
-								<img src={Icons.logoCalendar} alt="" />
+								<img src={Icons.logoCalendar} alt="icon calendar" />
 								<span>15 de Junio</span>
 							</a>
 							<a>
-								<img src={Icons.logoClock} alt="" />
+								<img src={Icons.logoClock} alt="icon clock" />
 								<span>09:00 - 17:30</span>
 							</a>
 							<a>
-								<img src={Icons.logoLocations} alt="" />
+								<img src={Icons.logoLocations} alt="icon location" />
 								<span>UCATEC</span>
 							</a>
 						</div>
