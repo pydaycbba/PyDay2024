@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const ScheduleItem = ({ time, image, type, title, name, description }) => {
+    const [expanded, setExpanded] = useState(false);
+
+    const handleItemClick = () => {
+        setExpanded(!expanded);
+    };
+
     return (
         <div className='schedule-item'>
-            <div className='schedule-item-1'>
+            <div className='schedule-item-1' onClick={handleItemClick}>
                 <p>{time}</p>
                 <img className='item-image' src={image} alt='Foto de ponente'/>
                 <div className='item-data'>
@@ -12,11 +18,11 @@ const ScheduleItem = ({ time, image, type, title, name, description }) => {
                     <p className='item-data-name'>{name}</p>
                 </div>
             </div>
-            <div className='schedule-item-2'>
+            <div className={`schedule-item-2 ${expanded ? 'expanded' : ''}`}>
                 <p>{description}</p>
             </div>
         </div>
     );
-    };
+};
 
 export default ScheduleItem;

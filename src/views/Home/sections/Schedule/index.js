@@ -10,7 +10,7 @@ const Schedule = () => {
     const handleTabClick = (tabName) => {
         setActiveTab(tabName);
     };
-    
+
     return (
         <section className='div_schedule' id='Schedule'>
             <h1>Cronograma</h1>

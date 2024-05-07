@@ -61,10 +61,6 @@
         linear-gradient(to right, var(--title-color-primary), var(--title-color-secondary)) border-box;
 }
 
-.schedule-item-1:last-of-type {
-    border-bottom: none;
-}
-
 .schedule-item-1>p {
     align-self: center;
     font-size: 25px;
@@ -169,6 +165,9 @@
     align-items: center;
     height: fit-content;
     background: #21184e;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
 }
 
 .schedule-item-2>p {
@@ -178,6 +177,10 @@
     width: 100%;
     margin-left: 220px;
     
+}
+
+.schedule-item-2.expanded {
+    max-height: 300px;
 }
 
 @media (max-width: 992px) {
