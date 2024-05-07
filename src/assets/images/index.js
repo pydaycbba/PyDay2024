@@ -19,7 +19,7 @@ const Images = {
     speakerPaolaMedrano: require('./Speaker-PaolaMedrano.png'),
     speakerReinaldoQuispe: require('./Speaker-ReinaldoQuispeMedrano.png'),
     speakerRudyManzaneda: require('./Speaker-RudyManzaneda.png'),
-    speakerSamuelRojas: require('./Speaker-SamuelIsaiasRojas.png'),
+    speakerSamuelRojas: require('./Speaker-SamuelIsaiasRojas.jpeg'),
     speakerSergioValenzuela: require('./Speaker-SergioHernánValenzuela.jpg'),
 
     talleristaAndreaSoria: require('./Workshopper-AndreaSoriaJimenez.jpeg'),

@@ -87,7 +87,7 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     time="16:40 - 17:20"
-                    image={Images.schedulePyDay}
+                    image={Images.speakerSamuelRojas}
                     type="Charla"
                     title="Desarrollo Web con Python: Explorando Reflex"
                     name="Samuel Isaias Rojas Condarco"
