@@ -9,6 +9,20 @@ const Images = {
     backgroundOriginal: require('./background.original.png'),
     backgroundSmall: require('./background.max-165x165.png'),
     backgroundMedium: require('./background.max-800x600.png'),
-    comingSoon: require('./ComingSoon.png')
+    comingSoon: require('./ComingSoon.png'),
+
+    schedulePyDay: require('./PyDayCbba.png'),
+
+    speakerAndresGutierrez: require('./Speaker-AndresGutierrez.jpg'),
+    speakerJacquelineSusan: require('./Speaker-JacquelineSusanMejía.jpg'),
+    speakerKevinArroyo: require('./Speaker-KevinArroyo.jpeg'),
+    speakerPaolaMedrano: require('./Speaker-PaolaMedrano.png'),
+    speakerReinaldoQuispe: require('./Speaker-ReinaldoQuispeMedrano.png'),
+    speakerRudyManzaneda: require('./Speaker-RudyManzaneda.png'),
+    speakerSamuelRojas: require('./Speaker-SamuelIsaiasRojas.jpeg'),
+    speakerSergioValenzuela: require('./Speaker-SergioHernánValenzuela.jpg'),
+
+    talleristaAndreaSoria: require('./Workshopper-AndreaSoriaJimenez.jpeg'),
+    talleristaItatiTorrez: require('./Workshopper-ItatiTorrez.jpg'),
 }
 export default Images;

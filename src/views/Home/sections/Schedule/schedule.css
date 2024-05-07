@@ -6,7 +6,7 @@
 
 .div_schedule>h1 {
     text-align: center;
-    
+
 }
 
 .tab {
@@ -19,8 +19,8 @@
 
 .tab>p {
     padding: 10px 20px;
-    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box, 
-            linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
+    background: radial-gradient(var(--background-color-secondary), var(--background-color-primary)) padding-box,
+        linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
     border-radius: 60px;
     border: 1px solid transparent;
     cursor: pointer;
@@ -28,13 +28,13 @@
 }
 
 .tab>p:hover {
-    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) padding-box, 
-            linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
+    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) padding-box,
+        linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
 }
 
 .tab>p.active {
-    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) padding-box, 
-            linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
+    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) padding-box,
+        linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)) border-box;
 }
 
 .tabcontent {
@@ -42,28 +42,38 @@
     display: none;
 }
 
-.tabcontent.active  {
+.tabcontent.active {
     display: block;
 }
 
 .schedule-item {
     display: flex;
+    flex-direction: column;
+}
+
+.schedule-item-1 {
+    display: flex;
     flex-direction: row;
+    align-items: center;
     height: 217px;
     border-bottom: 2px solid transparent;
-    background: linear-gradient(#32256E, #32256E) padding-box, 
-                linear-gradient(to right, var(--title-color-primary), var(--title-color-secondary)) border-box;
-
+    background: linear-gradient(#32256E, #32256E) padding-box,
+        linear-gradient(to right, var(--title-color-primary), var(--title-color-secondary)) border-box;
 }
 
-.schedule-item:last-child {
-    border-bottom: none;
-}
-
-.schedule-item>p {
+.schedule-item-1>p {
     align-self: center;
     font-size: 25px;
-    width: 250px;
+    min-width: 220px;
+}
+
+.item-image {
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: linear-gradient(#32256E, #32256E) padding-box,
+        linear-gradient(to right, var(--title-color-primary), var(--title-color-secondary)) border-box;
+    margin-right: 40px;
 }
 
 .item-data {
@@ -71,6 +81,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    margin-right: 40px;
 }
 
 .item-data>p {
@@ -81,9 +92,9 @@
 .item-data.Apertura {
     font-size: 14px;
     font-weight: 400;
-    width:fit-content;
+    width: fit-content;
     padding: 5px 15px;
-    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary));
     border-radius: 30px;
     text-align: center;
 }
@@ -91,9 +102,9 @@
 .item-data.Charla {
     font-size: 14px;
     font-weight: 400;
-    width:fit-content;
+    width: fit-content;
     padding: 5px 15px;
-    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary)); 
+    background: linear-gradient(to right, var(--title-color-secondary), var(--title-color-primary));
     border-radius: 30px;
     text-align: center;
 }
@@ -101,9 +112,9 @@
 .item-data.Taller {
     font-size: 14px;
     font-weight: 400;
-    width:fit-content;
+    width: fit-content;
     padding: 5px 15px;
-    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary));
     border-radius: 30px;
     text-align: center;
 }
@@ -111,9 +122,9 @@
 .item-data.Break {
     font-size: 14px;
     font-weight: 400;
-    width:fit-content;
+    width: fit-content;
     padding: 5px 15px;
-    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary));
     border-radius: 30px;
     text-align: center;
 }
@@ -121,9 +132,9 @@
 .item-data.Sponsor {
     font-size: 14px;
     font-weight: 400;
-    width:fit-content;
+    width: fit-content;
     padding: 5px 15px;
-    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary));
     border-radius: 30px;
     text-align: center;
 }
@@ -131,9 +142,9 @@
 .item-data.Conclusión {
     font-size: 14px;
     font-weight: 400;
-    width:fit-content;
+    width: fit-content;
     padding: 5px 15px;
-    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary)); 
+    background: linear-gradient(to right, #03D6D7, var(--title-color-quaternary));
     border-radius: 30px;
     text-align: center;
 }
@@ -148,16 +159,53 @@
     color: #00CEFF;
 }
 
+.schedule-item-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    background: #21184e;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.schedule-item-2>p {
+    font-size: 18px;
+    margin: 40px 119px;
+    text-align: left;
+    width: 100%;
+    margin-left: 220px;
+    
+}
+
+.schedule-item-2.expanded {
+    max-height: 300px;
+}
+
 @media (max-width: 992px) {
     .tabcontent {
         margin-left: 0;
         margin-right: 0;
     }
 
-    .schedule-item {
+    .schedule-item-1 {
         height: fit-content;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+
+    .schedule-item-1>p {
+        font-size: 20px;
+        min-width: 180px;
+    }
+
+    .item-data-title {
+        font-size: 20px;
+    }
+
+    .schedule-item-2>p {
+        margin-left: 180px;
     }
 }
 
@@ -174,26 +222,53 @@
         margin-right: 0px;
     }
 
-    .schedule-item {
-        height: 100px;
+    .schedule-item-1 {
+        min-height: 100px;
+        display: grid;
+        grid-template-areas: 
+        "time data"
+        "photo data";
+        grid-template-rows: 30px auto;
+        grid-template-columns: 110px auto;
+        justify-content: left;
+        padding: 20px;
     }
 
-    .schedule-item>p {
+    .schedule-item-1>p {
         font-size: 14px;
-        width: 120px;
+        width: fit-content;
+        grid-area: time;
+        min-width: 0px;
+        margin-top: 0px;
+        align-self: last baseline;
+    }
+
+    .item-image {
+        width: 80px;
+        height: 80px;
+        grid-area: photo;
+        margin-right: 0px;
+        align-self: baseline;
     }
 
     .item-data {
         gap: 5px;
+        grid-area: data;
+        margin-right: 0px;
     }
 
     .item-data-title {
         font-size: 16px;
         font-weight: 500;
     }
-    
+
     .item-data-name {
         font-size: 14px;
+    }
+
+    .schedule-item-2>p {
+        font-size: 14px;
+        margin: 20px;
     }
 
     #type {
