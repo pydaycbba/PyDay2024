@@ -85,7 +85,7 @@ p {
 }
 
 .mainContainer {
-    background-image: url(../assets/images/background.original.jpg);
+    background-image: url(../assets/images/background.original.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
