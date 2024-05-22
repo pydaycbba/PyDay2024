@@ -6,7 +6,7 @@ const Images = {
     logoPyCbbaHorizontalWhite: require('./PythonCB-Oscuro Horizontal.jpg'),
     logoPyladies: require('./Pyladies-Logo-Negativo.png'),
     logoPyladiesHorizontalWhite: require('./Pyladies_Horizontal_Blanco.jpg'),
-    backgroundOriginal: require('./background.original.jpg'),
+    backgroundOriginal: require('./background.original.png'),
     backgroundSmall: require('./background.max-165x165.jpg'),
     backgroundMedium: require('./background.max-800x600.jpg'),
     comingSoon: require('./ComingSoon.jpg'),
