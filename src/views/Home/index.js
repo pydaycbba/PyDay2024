@@ -5,6 +5,7 @@ import Footer from '../../components/footer'
 import CodeOfConduct from './sections/CodeOfConduct';
 import Schedule from './sections/Schedule';
 import Communities from './sections/Communities';
+import Campus from './sections/Campus';
 
 import Icons from '../../assets/icons';
 
@@ -43,6 +44,7 @@ import Icons from '../../assets/icons';
 			</section>
 		</div>
 		<Schedule />
+		<Campus />
 		<CodeOfConduct />
 		<Communities />
 		<Footer />

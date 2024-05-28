@@ -64,6 +64,7 @@ const Navbar = () => {
       <ul className={`navbar-menu ${showMenu ? 'show' : ''}`}>
         <li id='home'><a href="#Home" onClick={closeMenu}>PyDay</a></li>
         <li id='schedule'><a href="#Schedule" onClick={closeMenu}>Cronograma</a></li>
+        <li id='campus'><a href="#Campus" onClick={closeMenu}>Sede</a></li>
         <li id='coc'><a href="#COC" onClick={closeMenu}>COC</a></li>
         <li id='communities'><a href="#Communities" onClick={closeMenu}>Comunidades</a></li>
         <li id='contact'><a href="#Contact" onClick={closeMenu}>Contacto</a></li>
