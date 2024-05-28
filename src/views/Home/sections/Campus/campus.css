@@ -1,5 +1,6 @@
 .div_campus {
     padding: 8% 4% 4% 4%;
+    height: 100vh;
 }
 
 .div_campus>h1 {
@@ -9,33 +10,36 @@
 .container-campus {
     display:block;
     justify-content:center;
-    margin-bottom: 3px;
-    margin-top: 3px;
+    position: relative;
+    margin: 15px 10%;
     gap: 30px;
+    height: 450px;
+    overflow: hidden;
+    border-color: var(--title-color-tertiary);
+    border-style: solid;
 }
 
 .container-logo-campus {
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
-    border-color: var(--title-color-tertiary);
-    border-style: solid;
-    background: #05002b;
+    background-image: url(../../../../assets/images/UcatecVblanco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: absolute;
+    height: 450px;
 }
 
 .container-logo-campus>img {
-    width: 1250px;
-    height: fit-content;
+    width:fit-content;
+    height: 500px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 50px;
 }
 
 .container-RRSS-campus {
-    display: none;
-}
-
-.container-campus:hover .container-logo-campus{
     display: none;
 }
 
@@ -44,17 +48,12 @@
     flex-direction: row;
     justify-content: center;
     justify-items: center;
-    border-color: var(--title-color-tertiary);
-    border-style: solid;
-    background: #05002b;
-}
-
-.container-RRSS-campus>a>img {
-    width: 80px;
-    height: fit-content;
-    margin-right: 50px;
-    margin-top: 170px;
-    margin-bottom: 170px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    position: absolute;
+    height: 450px;
+    gap: 30px;
 }
 
 .container-RRSS-campus>a {
@@ -64,4 +63,58 @@
     font-family: 'Montserrat';
     font-size: 20px;
     margin-bottom: 5px;
+}
+
+.container-RRSS-campus>a>img {
+    width: 80px;
+    height: fit-content;
+
+}
+
+@media (max-width: 1100px) {
+    .container-RRSS-campus{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        position: absolute;
+        height: 100px;
+        bottom: 0;
+        gap:30px;
+    }
+    .container-RRSS-campus>a>img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .div_campus {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4%;
+    }
+    .container-campus {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 350px;
+    }
+    .container-logo-campus {
+        height: 300px;
+    }
+    .container-RRSS-campus{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        position: absolute;
+        height: 100px;
+        bottom: 0;
+        gap:30px;
+    }
+    .container-RRSS-campus>a>img {
+        width: 40px;
+    }
 }
