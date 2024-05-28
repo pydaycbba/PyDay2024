@@ -1,0 +1,67 @@
+.div_campus {
+    padding: 8% 4% 4% 4%;
+}
+
+.div_campus>h1 {
+    text-align: center;
+}
+
+.container-campus {
+    display:block;
+    justify-content:center;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    gap: 30px;
+}
+
+.container-logo-campus {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    border-color: var(--title-color-tertiary);
+    border-style: solid;
+    background: #05002b;
+}
+
+.container-logo-campus>img {
+    width: 1250px;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+.container-RRSS-campus {
+    display: none;
+}
+
+.container-campus:hover .container-logo-campus{
+    display: none;
+}
+
+.container-campus:hover .container-RRSS-campus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    border-color: var(--title-color-tertiary);
+    border-style: solid;
+    background: #05002b;
+}
+
+.container-RRSS-campus>a>img {
+    width: 80px;
+    height: fit-content;
+    margin-right: 50px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.container-RRSS-campus>a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 5px;
+}

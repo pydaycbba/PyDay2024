@@ -24,5 +24,10 @@ const Images = {
 
     talleristaAndreaSoria: require('./Workshopper-AndreaSoriaJimenez.jpeg'),
     talleristaItatiTorrez: require('./Workshopper-ItatiTorrez.jpg'),
+
+    logoUcatecHBlanco: require('./UcatecHblanco.png'),
+    logoUcatecHColor: require('./UcatecHcolor.png'),
+    logoUcatecVBlanco: require('./UcatecVblanco.png'),
+    logoUcatecVColor: require('./UcatecVcolor.png'),
 }
 export default Images;
