@@ -31,19 +31,19 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     time="09:10 - 09:50"
-                    image={Images.speakerRudyManzaneda}
+                    image={Images.speakerJacquelineSusan}
                     type="Charla"
-                    title="Streamlit: Creando Aplicaciones Web Interactivas para Ciencia de Datos con Python"
-                    name="Rudy Luis Manzaneda Veizaga"
-                    description="Se explicará cómo Streamlit simplifica el proceso de desarrollo de aplicaciones web interactivas para ciencia de datos con Python. En esta charla, se explicarán las características principales de Streamlit y cómo se puede utilizar esta herramienta para crear visualizaciones dinámicas, paneles interactivos y prototipos rápidos. Aprenderás sobre la facilidad de uso de Streamlit, su integración con bibliotecas de visualización de datos y su aplicación en casos reales."
+                    title="Chatbots que conversan: Crea chatbots inteligentes con Rasa"
+                    name="Jacqueline Susan Mejía"
+                    description="En la era digital, los chatbots se han vuelto esenciales para interactuar con marcas y servicios, siendo Rasa una plataforma destacada para su desarrollo. Esta presentación cubrirá desde los fundamentos de Rasa, incluyendo su núcleo, el dominio y el generador de lenguaje natural, hasta el proceso de construcción de un chatbot, abordando la definición de intents, entrenamiento de modelos y generación de respuestas mediante técnicas de procesamiento de lenguaje natural."
                 />
                 <ScheduleItem
                     time="10:10 - 10:50"
-                    image={Images.speakerPaolaMedrano}
+                    image={Images.speakerReinaldoQuispe}
                     type="Charla"
-                    title="¿Quién dijo que Python era solo para desarrolladores? Explorando su potencial en el mundo del hacking y la ciberseguridad"
-                    name="Paola Cinthia Medrano Pizarrozo"
-                    description="Exploraremos el potencial de Python en hacking y ciberseguridad. Descubriremos cómo este lenguaje va más allá del desarrollo convencional para proteger y atacar en el mundo digital y volverlo tu mejor aliado en defensa de ciberataques."
+                    title="Programación funcional con Python"
+                    name="Reinaldo Quispe Medrano"
+                    description="El objetivo de esta charla es introducir el paradigma de programación funcional utilizando Python y mostrar cómo este enfoque mejora la calidad del código. Se destacarán casos de uso en el análisis exploratorio de datos para ilustrar su aplicación práctica."
                 />
                 <ScheduleItem
                     time="11:00 - 11:40"
@@ -55,19 +55,19 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     time="11:50 - 12:30"
-                    image={Images.speakerReinaldoQuispe}
-                    type="Charla"
-                    title="Programación funcional con Python"
-                    name="Reinaldo Quispe Medrano"
-                    description="El objetivo de esta charla es introducir el paradigma de programación funcional utilizando Python y mostrar cómo este enfoque mejora la calidad del código. Se destacarán casos de uso en el análisis exploratorio de datos para ilustrar su aplicación práctica."
-                />
-                <ScheduleItem
-                    time="14:10 - 14:50"
                     image={Images.speakerAndresGutierrez}
                     type="Charla"
                     title="Python, más allá del procesamiento de datos y la IA (ERP's con Python)"
                     name="Andres Gutierrez Panoso"
                     description="Python tiene un rol importante en software empresarial, como backend soporta infrastructuras inmensas y en esta charla aprenderemos cómo ganar dinero con Python."
+                />
+                <ScheduleItem
+                    time="14:10 - 14:50"
+                    image={Images.speakerRudyManzaneda}
+                    type="Charla"
+                    title="Streamlit: Creando Aplicaciones Web Interactivas para Ciencia de Datos con Python"
+                    name="Rudy Luis Manzaneda Veizaga"
+                    description="Se explicará cómo Streamlit simplifica el proceso de desarrollo de aplicaciones web interactivas para ciencia de datos con Python. En esta charla, se explicarán las características principales de Streamlit y cómo se puede utilizar esta herramienta para crear visualizaciones dinámicas, paneles interactivos y prototipos rápidos. Aprenderás sobre la facilidad de uso de Streamlit, su integración con bibliotecas de visualización de datos y su aplicación en casos reales."
                 />
                 <ScheduleItem
                     time="15:00 - 15:40"
@@ -79,11 +79,11 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     time="15:50 - 16:30"
-                    image={Images.speakerJacquelineSusan}
+                    image={Images.speakerPaolaMedrano}
                     type="Charla"
-                    title="Chatbots que conversan: Crea chatbots inteligentes con Rasa"
-                    name="Jacqueline Susan Mejía"
-                    description="En la era digital, los chatbots se han vuelto esenciales para interactuar con marcas y servicios, siendo Rasa una plataforma destacada para su desarrollo. Esta presentación cubrirá desde los fundamentos de Rasa, incluyendo su núcleo, el dominio y el generador de lenguaje natural, hasta el proceso de construcción de un chatbot, abordando la definición de intents, entrenamiento de modelos y generación de respuestas mediante técnicas de procesamiento de lenguaje natural."
+                    title="¿Quién dijo que Python era solo para desarrolladores? Explorando su potencial en el mundo del hacking y la ciberseguridad"
+                    name="Paola Cinthia Medrano Pizarrozo"
+                    description="Exploraremos el potencial de Python en hacking y ciberseguridad. Descubriremos cómo este lenguaje va más allá del desarrollo convencional para proteger y atacar en el mundo digital y volverlo tu mejor aliado en defensa de ciberataques."
                 />
                 <ScheduleItem
                     time="16:40 - 17:20"
@@ -104,7 +104,7 @@ const Schedule = () => {
             </div>
             <div id='segundo' className={activeTab === 'segundo' ? 'tabcontent active' : 'tabcontent'}>
                 <ScheduleItem
-                    time="10:10 - 11:50"
+                    time="11:00 - 12:30"
                     image={Images.talleristaItatiTorrez}
                     type="Taller"
                     title="Pacman.py"
