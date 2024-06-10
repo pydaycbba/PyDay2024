@@ -8,8 +8,10 @@ import Communities from './sections/Communities';
 import Campus from './sections/Campus';
 
 import Icons from '../../assets/icons';
+import Countdown from '../../components/Countdown';
 
 	const Home = () => {
+		const targetDate = new Date("2024-06-15T09:00:59");
 	return (
 		<div>
 		<div className='mainContainer'>
@@ -33,6 +35,7 @@ import Icons from '../../assets/icons';
 							</a>
 						</div>
 					</div>
+					
 					<div className='contentBody'>
 						<p>¡Únete al PyDay Cochabamba 2024!</p>
 						<p>Únete a nosotros para un día lleno de aprendizaje, innovación y conexión. ¡Regístrate ahora y sé parte de esta experiencia única! ¡No pierdas la oportunidad de impulsar tu carrera en tecnología!</p>
@@ -43,6 +46,7 @@ import Icons from '../../assets/icons';
 				</div>
 			</section>
 		</div>
+		<Countdown targetDate={targetDate}/>
 		<Schedule />
 		<Campus />
 		<CodeOfConduct />
