@@ -24,6 +24,7 @@ const Images = {
 
     talleristaAndreaSoria: require('./Workshopper-AndreaSoriaJimenez.jpeg'),
     talleristaItatiTorrez: require('./Workshopper-ItatiTorrez.jpg'),
+    talleristaAnelise: require("./Workshopper-anelise.png"),
 
     logoUcatecHBlanco: require('./UcatecHblanco.png'),
     logoUcatecHColor: require('./UcatecHcolor.png'),
