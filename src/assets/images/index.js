@@ -22,7 +22,7 @@ const Images = {
     speakerSamuelRojas: require('./Speaker-SamuelIsaiasRojas.jpeg'),
     speakerSergioValenzuela: require('./Speaker-SergioHernánValenzuela.jpg'),
 
-    talleristaAnelise: require('./Workshopper-anelise.png'),
+    talleristaAnelise: require('./Workshopper-anelise.jpg'),
     talleristaItatiTorrez: require('./Workshopper-ItatiTorrez.jpg'),
 
     logoUcatecHBlanco: require('./UcatecHblanco.png'),
