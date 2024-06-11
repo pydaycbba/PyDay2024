@@ -114,11 +114,11 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     time="15:00 - 16:40"
-                    image={Images.talleristaAndreaSoria}
+                    image={Images.talleristaAnelise}
                     type="Taller"
-                    title="Synthetic Data Generation with Python and Distilabel"
-                    name="Andrea Soria Jiménez"
-                    description="En este taller, te llevaremos en un viaje lleno de creatividad y aprendizaje, donde exploraremos cómo crear conjuntos de datos sinteticos (Synthetic data) que desafiarán a tus modelos de ML y ampliarán tus habilidades como desarrollador. Desde entender los entresijos de los LLMs hasta dominar el arte de usar Distilabel para generar datos innovadores, este taller te guiará a través de cada paso de manera divertida y accesible. ¡Prepárate para poner tus habilidades a prueba, desatar tu imaginación y descubrir nuevas formas de dar vida a tus proyectos de machine learning! No importa si eres un novato curioso o un experto en Python, ¡este taller te mantendrá comprometido y entretenido durante todo el camino!"
+                    title="Construyendo software robusto, Explorando patrones de diseño en Python"
+                    name="Anaelise Huaniri Romero"
+                    description="En este taller, exploraremos en profundidad cómo los patrones de diseño pueden transformar radicalmente la calidad y la eficacia del software."
                 />
             </div>
         </section>

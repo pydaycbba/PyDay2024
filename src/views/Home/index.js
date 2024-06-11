@@ -6,10 +6,11 @@ import CodeOfConduct from './sections/CodeOfConduct';
 import Schedule from './sections/Schedule';
 import Communities from './sections/Communities';
 import Campus from './sections/Campus';
-
+import Countdown from '../../components/Countdown';
 import Icons from '../../assets/icons';
 
 	const Home = () => {
+		const targetDate = new Date("2024-06-15T08:59:59");
 	return (
 		<div>
 		<div className='mainContainer'>
@@ -43,6 +44,7 @@ import Icons from '../../assets/icons';
 				</div>
 			</section>
 		</div>
+		<Countdown targetDate={targetDate}/>
 		<Schedule />
 		<Campus />
 		<CodeOfConduct />
