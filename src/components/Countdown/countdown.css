@@ -1,10 +1,22 @@
+#div_countdown h1 {
+    text-align: center;
+}
+
 .countdown-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 2%;
+    width: 600px;
+    margin: auto;
+    margin-top: 35px;
+    gap: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: radial-gradient(#201A3E, #201A3E) padding-box, 
+                linear-gradient(to right, var(--title-color-tertiary), var(--title-color-quaternary)) border-box;
+    border: 2px solid transparent;
+    border-radius: 60px;
 }
 
 .countdown-item {
@@ -20,6 +32,7 @@
     background: linear-gradient(to bottom ,#FFBC00, #FF1F6D);
     background-clip: text;
     color: transparent;
+    text-align: center;
 }
 
 .countdown-label {
@@ -28,6 +41,11 @@
     color: #FFBC00;
 }
 @media (max-width: 768px) {
+    .countdown-container {
+        width: 70%;
+        flex-wrap: wrap;
+        gap: 0;
+    }
     .countdown-item {
         text-align: center;
         bottom: 10px;
@@ -42,11 +60,11 @@
         width: 100%;
     }
     .countdown-number {
-        font-size: 40px;
+        font-size: 50px;
     }
     
     .countdown-label {
-        font-size: 12px;
+        font-size: 18px;
     }
 
 }
