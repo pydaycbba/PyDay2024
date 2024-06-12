@@ -16,6 +16,9 @@ const CodeOfConduct = () => {
                         "Trata a todos los participantes con respeto y cortesía, independientemente de su identidad, género, orientación sexual, habilidad, apariencia física, religión o cualquier otra característica personal.",
                         "Respeta el espacio y las opiniones de los demás. No toleramos el acoso ni la discriminación en ninguna forma.",
                         "Mantén un comportamiento adecuado en todo momento durante el evento y las actividades relacionadas.",
+                        "Si te has registrado para el evento, por favor comprométete a asistir. La liberación de tu cupo en caso de no poder asistir permitirá a otros interesados disfrutar de esta experiencia.",
+                        "Los asistentes que no se han registrado previamente podrán tener la oportunidad de ingresar al evento en función de los espacios disponibles debido a la ausencia de asistentes registrados. Los horarios y la disponibilidad de estos espacios se gestionarán exclusivamente por el staff del evento.",
+                        "Es crucial llegar a tiempo. Si llegas tarde, podrías perder los beneficios asociados. A partir de horarios establecidos se habilitarán espacios para asistentes no registrados en función de las ausencias de personas registradas. Por favor, llegar temprano para asegurar tu lugar y aprovechar al máximo el evento.",
                         "Si experimentas o presencias cualquier forma de acoso, te alentamos a que lo informes a los organizadores de PyDay Cochabamba inmediatamente."
                     ]}
             />
